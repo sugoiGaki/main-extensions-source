@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat
 import java.util.Locale
 import java.util.concurrent.TimeUnit
 
-class LectorMangaLat : Madara(
+class LectorManga : Madara(
     "Lector-manga",
     "https://lector-manga.com",
     "es",
