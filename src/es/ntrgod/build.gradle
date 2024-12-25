@@ -1,0 +1,10 @@
+ext {
+    extName = 'NtrGod'
+    extClass = '.NtrGod'
+    themePkg = 'madara'
+    baseUrl = 'https://ntrgod.com'
+    overrideVersionCode = 0
+    isNsfw = true
+}
+
+apply from: "$rootDir/common.gradle"
