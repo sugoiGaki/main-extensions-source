@@ -1,8 +1,0 @@
-ext {
-    extName = 'NtrGod'
-    extClass = '.NtrGod'
-    extVersionCode = 12
-    isNsfw = true
-}
-
-apply from: "$rootDir/common.gradle"
