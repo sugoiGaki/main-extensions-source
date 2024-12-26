@@ -6,9 +6,9 @@ import eu.kanade.tachiyomi.source.SourceFactory
 
 class HFFactory : SourceFactory {
     override fun createSources(): List<Source> = listOf(
-        AsmHentai("en", GalleryAdults.LANGUAGE_ENGLISH),
-        AsmHentai("ja", GalleryAdults.LANGUAGE_JAPANESE),
-        AsmHentai("zh", GalleryAdults.LANGUAGE_CHINESE),
-        AsmHentai("all", GalleryAdults.LANGUAGE_MULTI),
+        HentaiForce("en", GalleryAdults.LANGUAGE_ENGLISH),
+        HentaiForce("ja", GalleryAdults.LANGUAGE_JAPANESE),
+        HentaiForce("zh", GalleryAdults.LANGUAGE_CHINESE),
+        HentaiForce("all", GalleryAdults.LANGUAGE_MULTI),
     )
 }
