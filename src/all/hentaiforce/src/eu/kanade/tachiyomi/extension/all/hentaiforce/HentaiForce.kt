@@ -8,7 +8,7 @@ import eu.kanade.tachiyomi.multisrc.galleryadults.imgAttr
 import eu.kanade.tachiyomi.source.model.Filter
 import eu.kanade.tachiyomi.source.model.FilterList
 
-class HentaiForce(
+class HentaiForceFactory(
     lang: String = "all",
     override val mangaLang: String = LANGUAGE_MULTI,
 ) : GalleryAdults(
