@@ -1,6 +1,6 @@
 ext {
     extName = 'HentaiForce'
-    extClass = '.HentaiForce'
+    extClass = '.HFFactory'
     themePkg = 'galleryadults'
     baseUrl = 'https://hentaiforce.net'
     overrideVersionCode = 1
