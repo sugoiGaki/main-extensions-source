@@ -1,0 +1,10 @@
+ext {
+    extName = 'HentaiForce'
+    extClass = '.HentaiForceFactory'
+    themePkg = 'galleryadults'
+    baseUrl = 'https://hentaiforce.net'
+    overrideVersionCode = 1
+    isNsfw = true
+}
+
+apply from: "$rootDir/common.gradle"
