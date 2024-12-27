@@ -1,9 +1,0 @@
-ext {
-    extName = 'HentaiForce'
-    extClass = '.HentaiForceFactory'
-    baseUrl = 'https://hentaiforce.net'
-    overrideVersionCode = 3
-    isNsfw = true
-}
-
-apply from: "$rootDir/common.gradle"
