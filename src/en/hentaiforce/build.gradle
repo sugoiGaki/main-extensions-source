@@ -2,7 +2,7 @@ ext {
     extName = 'HentaiForce'
     extClass = '.HentaiForceFactory'
     baseUrl = 'https://hentaiforce.net'
-    overrideVersionCode = 3
+    extVersionCode = 3
     isNsfw = true
 }
 
